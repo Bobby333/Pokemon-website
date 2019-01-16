@@ -1,0 +1,273 @@
+/*Robert Grant Pokemon style sheet*/
+
+@import url("https://fonts.googleapis.com/css?family=Cabin");
+
+body{
+	font-family: "Cabin", sans-serif;
+	background-color: #ffffff;
+	padding:0;
+	margin:0;
+}
+
+ ul li{
+	list-style-image:url("favicon.ico");
+}
+
+#battle{
+	padding-left:8em;
+	padding-top:5em;
+}
+
+header{
+	background-color:#f00000;
+	text-align:center;
+	font-size:20pt;
+	padding-top:.5em;
+	padding-bottom:.5em;
+}
+
+header img{
+	background-color:#f00000;
+}
+
+.desktop{
+	display:none;
+}
+
+ul li{
+	padding-bottom:.5em;
+}
+
+nav li{
+	text-align:center;
+	list-style-type:none;
+	list-style-image:none;
+	background-color: #000000; 
+	border-radius: 2em; 
+	margin: 0.3em; 
+	padding: 0.4em;
+}
+
+
+.column1, .column1 li{
+	text-align:center;
+	list-style-type:none;
+	list-style-image:none;
+}
+
+.column2, .column2 li{
+	text-align:center;
+	list-style-type:none;
+	list-style-image:none;
+}
+
+nav li a:link {
+	color: #FFFFFF;	
+}
+
+nav li a:visited {
+	color: #f00000;	
+}
+
+nav li a:hover {
+	color: #9D9D93;
+}
+nav li a:active{
+	color:#0000ff;
+}
+
+ .required:after {
+	 content:"*"; 
+	 color:#f00000;
+	 }
+	 
+	 .required{
+	padding-top:3em;
+	text-align:center;
+}
+
+.question{
+	padding-top:3em;
+	text-align:center;
+}
+
+.team-type{
+	padding-top:3em;
+	text-align:center;
+	list-style-image:none;
+}
+.team-type ul li{
+	list-style-image:none;
+	list-style-type:none;
+}
+
+.state{
+	padding-top:3em;
+	text-align:center;
+}
+
+.btn{
+	padding-top:1em;
+	text-align:center;
+	
+}
+
+@media only screen and (min-width: 500px){
+
+.desktop{
+	display: inline;
+}
+
+footer{
+	clear:both;
+	text-align:center;
+	padding-top:7em;
+}
+	
+table{
+	border: 0.1em solid #000000;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+th, td {
+	border: 0.1em solid #000000;
+	padding: 1em;
+}
+
+th{
+	color:#f00000;	
+}
+
+caption{
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-bottom: 0.5em;
+}
+
+#use{
+	width:20%;
+	float:left;
+	padding-left:3em;
+}
+
+.column1{
+	float:left;
+	width:30%;
+	text-align:center;
+	list-style-type:none;
+	background-color:#f00000;
+	border-radius: 2em; 
+	margin: 0.3em; 
+	padding: 1em;
+}
+
+.column2{
+	float:right;
+	width:30%;
+	text-align:center;
+	list-style-type:none;
+	background-color:#f00000;
+	border-radius: 2em; 
+	margin: 0.3em; 
+	padding: 1em;
+}
+
+
+#team{
+	margin-right:auto;
+	margin-left:auto;
+	float:left;
+	width:50%;
+	padding-left:4em
+}
+
+h1,h2,h3{
+	text-align:center;
+}
+
+aside{
+	float:right;
+	width:26%;
+	text-align:center;
+	background-image: url("pokeball.png");
+	border-radius: 2em; 
+	margin: 0.3em; 
+	padding: 1em;
+	color:#000000;
+}
+
+aside li{
+	list-style-type:none;
+	padding-left:1.6em;
+	list-style-image:none;
+}
+
+aside h2{
+	padding-left:2.5em;
+}
+#types{
+	display:none;
+}
+
+}
+
+@media only screen and (min-width: 1200px){
+
+#types{
+	display:inline;
+	padding-left:5em;
+}
+
+.container{
+	list-style-type:none;
+	padding-left:3em;
+	padding-right:3em;
+}
+
+nav li{
+	display:inline;
+	padding-left:2.5em;
+}
+
+nav{
+	background-color:#000000;
+	padding:1em;
+}
+
+.required{
+	display:inline;
+	padding-left:10em;
+}
+
+.question{
+	padding-top:3em;
+	text-align:center;
+}
+
+.team-type{
+	padding-top:3em;
+	text-align:center;
+	list-style-image:none;
+}
+.team-type ul li{
+	list-style-image:none;
+	list-style-type:none;
+}
+
+.state{
+	padding-top:3em;
+	text-align:center;
+}
+
+.btn{
+	padding-top:1em;
+	text-align:center;
+	
+}
+}
+
+
+
